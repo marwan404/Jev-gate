@@ -1,0 +1,12 @@
+[project]
+name = "jev-gate"
+version = "0.1.0"
+description = "A Jev-powered security gate for shell commands"
+requires-python = ">=3.10"
+dependencies = [
+    "typesafe-sdk",
+    "python-dotenv",
+]
+
+[project.scripts]
+jev-gate = "jev_gate:main"
