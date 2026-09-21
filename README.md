@@ -15,11 +15,6 @@ Python then applies the local policy. Jev does **not** execute the command.
 
 Requires Python 3.10+.
 
-```powershell
-uv sync
-Copy-Item .env.example .env
-```
-
 Put your API key in `.env`:
 
 ```text
